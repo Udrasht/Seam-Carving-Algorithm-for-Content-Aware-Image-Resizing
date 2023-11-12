@@ -36,25 +36,35 @@ each pixel.
 ### How to Run::
 - ```python3 driver.py <input_mage_name>```
 - Ex:  ```python3 driver.py sample1.jpeg```
-
+---
 ### Output Example
 
 - #### Sample Image1
   Original Image
-  ![Image 1](/data/input/sample4.jpeg)
+  
+   ![Image 1](/data/input/sample4.jpeg)
+  
   Resized Image
-  ![Image 2](/data/output/sample_out4.jpeg)
+  
+   ![Image 2](/data/output/sample_out4.jpeg)
   
 - #### Sample Image2
   Original Image
-   ![Image 1](/data/input/sample1.jpeg)
+  
+   ![Image 3](/data/input/sample1.jpeg)
+  
   Resized Image
-  ![Image 2](/data/output/sample_out1.jpeg)
+  
+  ![Image 4](/data/output/sample_out1.jpeg)
+  
 - #### Sample Image3
   Original Image
-  ![Image 1](/data/input/sample3.jpeg)
+  
+   ![Image 5](/data/input/sample3.jpeg)
+  
   Resized Image
-  ![Image 2](/data/output/sample_out3.jpeg)
+  
+   ![Image 6](/data/output/sample_out3.jpeg)
 
 
 
