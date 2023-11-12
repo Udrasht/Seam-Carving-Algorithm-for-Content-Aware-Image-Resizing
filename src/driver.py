@@ -5,7 +5,7 @@ import sys
 
 
 def extract_pixel_values():
-    ip_dir = "./data/input/"
+    ip_dir = "../data/input/"
     ip_img = sys.argv[1]
     ip_file = "rgb_in.txt"
     # Read input image
@@ -35,16 +35,16 @@ def extract_pixel_values():
 
 def compile_and_run_cpp():
     # compile the cpp file
-    os.system("g++ ./src/main.cpp -o ./bin/main")
+    os.system("g++ ../src/main.cpp -o ../bin/main")
     print("[*] Compilation Successful, Executing ./bin/main \n")
     # run the binary file
-    os.system("./bin/main")
+    os.system("../bin/main")
 
 # ---------------------------------------------------------------------
 
 def create_output_image():
     op_file = "rgb_out.txt"
-    op_dir = "./data/output/"
+    op_dir = "../data/output/"
     op_img = "sample_out.jpeg"
     # open output file(rgb_out.txt)
     op_fp = open(op_dir + op_file, "r")

@@ -265,7 +265,7 @@ void solve(int ***rgb, int H, int W, int C, int H_, int W_, int C_) {
 }
 
 int main() {
-    string ip_dir = "./data/input/";
+    string ip_dir = "../data/input/";
     string ip_file = "rgb_in.txt";
     ifstream fin(ip_dir + ip_file);
 
@@ -293,8 +293,8 @@ int main() {
     C_ = C;
 
     solve(rgb, H, W, C, H_, W_, C_);
-
-    string op_dir = "./data/output/";
+    
+    string op_dir = "../data/output/";
     string op_file = "rgb_out.txt";
     ofstream fout(op_dir + op_file);
     
